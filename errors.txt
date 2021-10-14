@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 131: expected statement.
+    gui.choice_button_width = 1000
+                            ^
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Thu Oct 14 19:00:57 2021

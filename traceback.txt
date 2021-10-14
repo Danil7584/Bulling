@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 126, in script
+    jump editor
+ScriptError: could not find label 'editor'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 126, in script
+    jump editor
+  File "renpy/ast.py", line 1752, in execute
+    rv = renpy.game.script.lookup(target)
+  File "renpy/script.py", line 918, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'editor'.
+
+Windows-10-10.0.19041
+Ren'Py 7.4.8.1895
+Ren'Py Tutorial Game Ren'Py 7.4.8.1895
+Thu Oct 14 17:39:33 2021
