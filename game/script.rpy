@@ -7,6 +7,7 @@ define gg = Character('[ggname]', color="#000000")
 # Вася и Петя спорят
 define vasa_i_petia_eror = False
 define katia_i_sveta_eror = False
+define permen = True
 
 #Анимация моргает
 image danil blink:
